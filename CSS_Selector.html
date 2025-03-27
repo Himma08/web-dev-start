@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selector</title>
+    <style>
+        /* class selector */
+      .red {
+        color: red;
+        background-color: yellow;
+      }
+      /* id selector */
+      #green {
+        color: green;
+        background-color: red;
+      }
+      /* child selector  */
+      div > p {
+        color: blue;
+        background-color: pink;
+      }
+      /* universal selector */
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      /* pseudo selector */
+    a:visited {
+      color: rgb(205, 97, 58);
+    }
+    a:hover {
+      color: rgb(58, 205, 97);
+    }
+    a:active {
+      color: rgb(58, 97, 205);
+    }
+    </style>
+  </head>
+  <body>
+    <div class="red">i am a coder <p>i am a para inside div</p></div>
+    <div id="green">i am also a coder</div>
+    <a href="https://google.com">Hey i am Google</a>
+    <a href="https://google2.com">Hey i am Google 2</a>
+</html>
